@@ -1,0 +1,71 @@
+body{
+    background-color: green;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+button {
+    width: 120px;
+    height: 50px;
+    background-color: purple;
+    color: white;
+    border-radius: 18px;
+    outline: none;
+    margin: 50px;
+}
+
+#showing {
+    text-align: center;
+    background: white;
+    margin: auto;
+    height: 200px;
+    font-size: 80px;
+    width: 250px;
+    padding: 20px;
+    padding-top: 180px;
+    border: 1px solid black;
+    border-radius: 15px;
+    
+}
+
+
+
+/* .card{
+    text-align: center;
+    background: white;
+    margin: auto;
+    height: 200px;
+    font-size: 80px;
+    width: 250px;
+    padding: 20px;
+    padding-top: 180px;
+    border: 1px solid black;
+    border-radius: 15px;
+    position: relative;
+
+}
+
+::after{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 80px;
+}
+::before{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 80px;
+}
+
+.spade::before .spade::after{ content:'\2660';} 
+.club::before .club::after{ content: '\2663';}
+.heart::before .heart::after{ content: '\2665'; color: red;}
+.diamond::before .diamond::after{ content: '♦'; color: red;} */
