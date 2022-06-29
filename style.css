@@ -1,4 +1,4 @@
-body{
+body {
     background-color: green;
     box-sizing: border-box;
 }
@@ -7,10 +7,10 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
-    
-} 
 
-    button {
+}
+
+button {
     width: 200px;
     height: 60px;
     background-color: purple;
@@ -19,7 +19,7 @@ body{
     margin: 50px;
 }
 
-.card{
+.card {
     background: white;
     margin: auto;
     height: 340px;
@@ -31,7 +31,7 @@ body{
 
 .top-suit {
     font-size: 90px;
-    
+
 }
 
 .bottom-suit {
