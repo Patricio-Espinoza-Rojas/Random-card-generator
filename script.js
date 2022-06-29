@@ -1,31 +1,49 @@
-
-function displayCard() {
     let cards = ['♠','♣','♥','♦'];
-    let Cards_ = Math.floor(Math.random() * cards.length);
+    
     let numbers = ['A','2','3','4','5','6','7','8','9','10','J','Q','K'];
-    let Numbers = Math.floor(Math.random() * numbers.length);
+
+function randomCardIndex() {
+    Math.floor(Math.random() * cards.length);
+}
+
+    let randomCard = cards [randomCardIndex()]
+
+function randomNumberIndex() {
+    Math.floor(Math.random() * numbers.length); 
+}
+    let randomNumbers = numbers [randomNumberIndex()]
+
+
 
     const topSuit = document.querySelector(".top-suit");
-if (cards == "♥") {
+if (randomCard == "♥") {
   topSuit.style.color = "red";
 }
-    if (cards == "♦") {
+    if (randomCard == "♦") {
         topSuit.style.color = "red";
 }
+topSuit.innerHTML = randomCard;
+
 
 const BottomSuit = document.querySelector(".bottom-suit");
-if (cards == "♥") {
+if (randomCard == "♥") {
   BottomSuit.style.color = "red";
 }
-    if (cards == "♦") {
+    if (randomCard == "♦") {
         BottomSuit.style.color = "red";
 }
+BottomSuit.innerHTML = randomCard;
 
 
-    document.getElementById("showing").innerHTML = cards[Cards_] + " " + numbers[Numbers];
-    document.getElementById(".topSuit").innerHTML = cards[Cards_] + " " + numbers[Numbers];
-    document.getElementById(".BottomSuit").innerHTML = cards[Cards_] + " " + numbers[Numbers];
-}
+let numberSeven = document.querySelector('.seven')
+numberSeven.innerHTML = randomNumbers;  
+
+
+
+    // document.getElementById("showing").innerHTML = cards[Cards_] + " " + numbers[Numbers];
+    // document.getElementById(".topSuit").innerHTML = cards[Cards_] + " " + numbers[Numbers];
+    // document.getElementById(".BottomSuit").innerHTML = cards[Cards_] + " " + numbers[Numbers];
+
 
 
 
