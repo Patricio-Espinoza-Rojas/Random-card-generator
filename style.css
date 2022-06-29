@@ -5,7 +5,6 @@ body{
 
 .container {
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     
@@ -17,56 +16,33 @@ body{
     background-color: purple;
     color: white;
     border-radius: 18px;
-    outline: none;
     margin: 50px;
 }
 
 .card{
-    text-align: center;
     background: white;
     margin: auto;
-    height: 200px;
-    font-size: 80px;
+    height: 340px;
     width: 250px;
-    padding: 20px;
-    padding-top: 180px;
     border: 1px solid black;
     border-radius: 15px;
     position: relative;
-
 }
 
-
-
-/* .card{
-    text-align: center;
-    background: white;
-    margin: auto;
-    height: 200px;
-    font-size: 80px;
-    width: 250px;
-    padding: 20px;
-    padding-top: 180px;
-    border: 1px solid black;
-    border-radius: 15px;
-    position: relative;
-
+.top-suit {
+    font-size: 90px;
+    
 }
 
-::after{
+.bottom-suit {
     position: absolute;
-    top: 20px;
-    left: 20px;
-    font-size: 80px;
-}
-::before{
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    font-size: 80px;
+    transform: rotate(180deg);
+    right: 1px;
+    bottom: 1px;
+    font-size: 90px;
 }
 
-.spade::before .spade::after{ content:'\2660';} 
-.club::before .club::after{ content: '\2663';}
-.heart::before .heart::after{ content: '\2665'; color: red;}
-.diamond::before .diamond::after{ content: '♦'; color: red;} */
+.seven {
+    font-size: 105px;
+    margin: 100px;
+}
